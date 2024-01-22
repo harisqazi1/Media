@@ -28,7 +28,7 @@ python3 subtitle_shift.py input.srt -t _00:01:32,001 -o output.txt
 
 ### Example:
 
-Input (excerpt):
+Input:
 
 ```
 1
@@ -61,7 +61,7 @@ Command:
 python3 subtitle_shift.py testing.srt -t _00:01:32,001 -o test.txt
 ```
 
-Output (excerpt):
+Output:
 ```
 
 

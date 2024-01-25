@@ -50,7 +50,12 @@ def shift(filename, user_time): #direction = shift back or shift forward; time i
                     #print(" " + each_word + " ", end='')
                     temp.writelines(" " + each_word + " ")
         else:
-            temp.writelines("\n" + next_line.strip())
+            if re.match(r'^\d+', next_line.strip()):
+                #print('\n' + next_line.strip())
+                temp.writelines("\n" + next_line.strip() + "\n")
+            else:
+                #print('\n' + next_line.strip(), end='')
+                temp.writelines("\n" + next_line.strip())
 
 def cleanup(temporary_file, output_file_name):
     temporary_file.seek(0)
@@ -58,7 +63,7 @@ def cleanup(temporary_file, output_file_name):
     content = re.sub(r"[\uFEFF]", "", content, re.M)
     content = re.sub(r"\d\n\n[ -~]{0,}\n\n", r"", content, re.M) #Remove all lines where no time is printed (for negative times)
     content = re.sub(r"\n\n\n", r"\n", content, flags=re.M) #After 10 there was a extra lines
-    content = re.sub(r"[\uFEFF]", "", content, re.M) #Super specific regex, but was to remove a unicode char
+    content = re.sub(r"\n\d\n[ -~]{0,}\n\n", r"\n", content, flags=re.M) #Remove missed lines no time was printed (possible to mix this with line 64)
     output_file_name.write(content)
     #print(content, end='')
 

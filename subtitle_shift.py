@@ -50,8 +50,7 @@ def shift(filename, user_time): #direction = shift back or shift forward; time i
                     #print(" " + each_word + " ", end='')
                     temp.writelines(" " + each_word + " ")
         else:
-            #print('\n' + next_line.strip())
-            temp.writelines('\n' + next_line.strip() + "\n")
+            temp.writelines("\n" + next_line.strip())
 
 def cleanup(temporary_file, output_file_name):
     temporary_file.seek(0)

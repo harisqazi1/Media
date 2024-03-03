@@ -1,7 +1,6 @@
 # Podcast OPML Generator
 
-A local OPML generator meant for podcasts. Simply input a text file with the links to the RSS feeds for the podcasts and it will generate the OPML file for you, which can be read by your podcast reader of choice.
-
+A local OPML generator meant for podcasts. Simply input a text file with the links to the RSS feeds for the podcasts and it will generate the OPML file for you, which can be read by your podcast reader of choice. **This was tested on CPOD** where it was working.
 
 ## Usage/Examples
 

@@ -29,4 +29,4 @@ If you want to download the script only, I would recommend using `curl`, `wget`,
 - http://kinolien.github.io/gitzip
 - https://minhaskamal.github.io/DownGit
 
-Go to the dist folder in each project and use the aforementioned tools on it. **You might have to run `chmod +x binary_name` to make it executable.**
+Go to the dist folder in each project and use the aforementioned tools on it. **You might have to run `chmod +x binary_name` to make it executable.** Then run it by adding a `./` before the binary.

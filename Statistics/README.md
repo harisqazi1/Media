@@ -1,6 +1,6 @@
 # Statistics
 
-This project aims to provide insight into the media in your library. With the rise of DRM-free, Copyright-free, and Fair-Use content, this allows you to get information on your collection. There is currently no plan to add audio files into this project. 
+This project aims to provide insight into the media in your library. With the rise of DRM-free, Copyright-free, and Fair-Use content, this allows you to get information on your collection. There is currently no plan to add audio files into this project. **NOTE: This script is intended for REMUX content.**
 
 ## Usage/Examples
 
@@ -18,7 +18,7 @@ Media/
 
 This is coded to look for `.mkv` files only at the moment. In order to add more extensions see this [stackoverflow answer](https://stackoverflow.com/a/4568638)].
 
-```python
+```bash
 python3 statistics.py
 ```
 

@@ -20,6 +20,8 @@ Media (Root Directory - you are here)/
 ## Projects
 - Subtitle Shift - Edit subtitle files to show text sooner or later (works for negative)
 - Statistics - Get statistics on your media vault
+- OPML Generator - Generate OPML files by input-ing a list of RSS feeds
+- Storage Estimat-inator - Get an estimate on how much data you can fit into a specified storage size
 ## Usage/Examples
 
 If you want to download the script only, I would recommend using `curl`, `wget`, or the "Save page as..." built into the browser. However, if you want to download the package, I would use the following tools to do so (I am not affiliated to these services, nor have I reviewed them):

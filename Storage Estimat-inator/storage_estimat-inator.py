@@ -56,38 +56,38 @@ if splitted_input[1] == "EB":
 print("----------------------------------------------------------------------")
 # This is in bytes - to make math easier (Mebibytes, Gibibytes, etc) (2^X basically)
 # Storage size is basically decimal size to binary bytes size
-# Ex. 10 MB = 10000000 in decimal but 10485760 in Binary (1000 vs 1024)
+# File sizes are in decimal now
 data_storage = {
     "character in text file" : 1,                        #1 character = 1 byte
-    "MP3 Song File" : 10485760,                          #10 MB 
-    "DVD" : 4294967296,                                  #4 GB
-    "DVD Backup" : 8589934592,                           #8 GB
-    "Blu-ray Disc" : 26843545600,                        #25 GB
-    "Ultra HD Blu-ray" : 59055800320,                    #55 GB
-    "Ultra HD Blu-ray Backup" : 67967857459.2,           #63.3 GB
-    "Video Game" : 85899345920,                          #80 GB
-    "480p x264 Movie(s)" :  576716800.25,                #550 MB
-    "720p x264 Movie(s)" :  1493172224.18,               #1.39 GB
-    "1080p x264 Movie(s)" : 3758096384,                  #3.5 GB
-    "2K (1440p) x264 Movie(s)" : 6442450944,             #6 GB
-    "UHD (4K) x264 Movie(s)" : 15032385536,              #14 GB
-    "8K x264 Movie(s)" : 64424509440,                    #60 GB
-    "480p x265 Movie(s)" :  419430400.18,                #400 MB
-    "720p x265 Movie(s)" : 1119879168.135,               #1.12 GB
-    "1080p x265 Movie(s)" : 2952790016,                  #2.75 GB
-    "2K (1440p) x265 Movie(s)" : 5368709120,             #5 GB
-    "UHD (4K) x265 Movie(s)" : 11274289152,              #10.5 GB
-    "8K x265 Movie(s)" : 51002736640,                    #47.5 GB
-    "480p x264 Episode(s)" : 288358400.12,               #275 MB
-    "720p x264 Episode(s)" : 734003200.31,               #700 MB
-    "1080p x264 Episode(s)" : 1879048192,                #1.75 GB
-    "2K (1440p) x264 Episode(s)": 3489660928,            #3.25 GB
-    "UHD (4K) x264 Episode(s)" : 7516192768,             #7 GB
-    "480p x265 Episode(s)" : 209715200.09,               #200 MB
-    "720p x265 Episode(s)" : 576716800.25,               #550 MB
-    "1080p x265 Episode(s)" : 1503238553.6,              #1.4 GB
-    "2K (1440p) x265 Episode(s)" : 2952790016,           #2.75 GB
-    "UHD (4K) x265 Episode(s)" : 5905580032              #5.5 GB
+    "MP3 Song File" : 10000000,                          #10 MB 
+    "DVD" : 4000000000,                                  #4 GB
+    "DVD Backup" : 8000000000,                           #8 GB
+    "Blu-ray Disc" : 25000000000,                        #25 GB
+    "Ultra HD Blu-ray" : 55000000000,                    #55 GB
+    "Ultra HD Blu-ray Backup" : 63300000000,             #63.3 GB
+    "Video Game" : 80000000000,                          #80 GB
+    "480p x264 Movie(s)" :  550000000,                   #550 MB
+    "720p x264 Movie(s)" :  1390000000,                  #1.39 GB
+    "1080p x264 Movie(s)" : 3500000000,                  #3.5 GB
+    "2K (1440p) x264 Movie(s)" : 6000000000,             #6 GB
+    "UHD (4K) x264 Movie(s)" : 14000000000,              #14 GB
+    "8K x264 Movie(s)" : 60000000000,                    #60 GB
+    "480p x265 Movie(s)" :  400000000,                   #400 MB
+    "720p x265 Movie(s)" : 1120000000,                   #1.12 GB
+    "1080p x265 Movie(s)" : 2750000000,                  #2.75 GB
+    "2K (1440p) x265 Movie(s)" : 5000000000,             #5 GB
+    "UHD (4K) x265 Movie(s)" : 10500000000,              #10.5 GB
+    "8K x265 Movie(s)" : 47500000000,                    #47.5 GB
+    "480p x264 Episode(s)" : 275000000,                  #275 MB
+    "720p x264 Episode(s)" : 700000000,                  #700 MB
+    "1080p x264 Episode(s)" : 1750000000,                #1.75 GB
+    "2K (1440p) x264 Episode(s)": 3250000000,            #3.25 GB
+    "UHD (4K) x264 Episode(s)" : 7000000000,             #7 GB
+    "480p x265 Episode(s)" : 200000000,                  #200 MB
+    "720p x265 Episode(s)" : 550000000,                  #550 MB
+    "1080p x265 Episode(s)" : 1400000000,                #1.4 GB
+    "2K (1440p) x265 Episode(s)" : 2750000000,           #2.75 GB
+    "UHD (4K) x265 Episode(s)" : 5500000000              #5.5 GB
 }
 
 print("With a %s storage device you can store the following information:" % user_input)

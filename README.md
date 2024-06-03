@@ -24,11 +24,4 @@ Media (Root Directory - you are here)/
 - Storage Estimat-inator - Get an estimate on how much data you can fit into a specified storage size
 ## Usage/Examples
 
-If you want to download the script only, I would recommend using `curl`, `wget`, or the "Save page as..." built into the browser. However, if you want to download the package, I would use the following tools to do so (I am not affiliated to these services, nor have I reviewed them):
-
-- https://githubdownloader.com/
-- https://download-directory.github.io/
-- http://kinolien.github.io/gitzip
-- https://minhaskamal.github.io/DownGit
-
 Go to the dist folder in each project and use the aforementioned tools on it. **You might have to run `chmod +x binary_name` to make it executable.** Then run it by adding a `./` before the binary.

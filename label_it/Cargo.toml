@@ -1,0 +1,12 @@
+[package]
+name = "label_it"
+version = "0.1.0"
+edition = "2021"
+authors = ["Haris Qazi (Harisfromcyber)"]
+license = "CC BY 4.0 Attribution 4.0 International"
+description = "Label and manage your hard drives with codewords."
+readme = "README.md"
+
+[dependencies]
+rand = "0.9.0"
+titlecase = "3.3.0"

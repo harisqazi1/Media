@@ -4,7 +4,7 @@ A way to make labeling and categorizing your drives easier by using code words i
 
 I would recommend using the Electronic Frontier Foundation's large word list from: https://www.eff.org/dice. To get only the words, I ran the following on the large wordlist: `cat eff_large_wordlist.txt | awk '{ print $2}' > words.txt`.
 
-**This program is meant for Linux primarily**, but can be changed for Windows with a small tweak. See the [Tinkering](###wordlist-update-for-Windows) section in the README for it.
+**This program is meant for Linux primarily**, but can be changed for Windows with a small tweak. See the [Tinkering](#wordlist-update-for-windows) section in the README for it.
 
 ## Features
 

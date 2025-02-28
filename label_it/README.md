@@ -109,7 +109,6 @@ Size:
 Date Purchased: 
 Encryption Type: 
 
-
 ```
 
 The code **does not** override the file, but appends to it, to make sure the code can be repeated as needed.

@@ -43,23 +43,23 @@ cargo run /usr/share/dict/words 2
 
 Output:
 
-```
+```markdown
 # Drives -----------
-Codename: JagsWrap
+Codename: PosesIncompatible
 Make & Model: 
 Serial Number: 
 Size: 
 Date Purchased: 
 Encryption Type: 
-Password: Atlantis*Kazakhstan@Gifted^Corny#Yorkshire
+Password: Mitigates*Routed$Pleading~Macumba's(Battiest
 
-Codename: ReversingIDs
+Codename: GratuitySomnambulism
 Make & Model: 
 Serial Number: 
 Size: 
 Date Purchased: 
 Encryption Type: 
-Password: Heartbeat's@Tiger$Encapsulates)Magnanimous#Chino
+Password: Statesman's!Turkestan@Amirs@Frizz's*Misgivings
 ```
 
 ### Output to file:
@@ -68,15 +68,14 @@ The format for this is: `cargo run wordlist amount output_file`.
 
 output.txt contents **before**:
 
-```
+```markdown
 # Drives -----------
-Codename: ExtraditingQuanta
+Codename: MargrethePro
 Make & Model: 
 Serial Number: 
 Size: 
 Date Purchased: 
-Encryption Type: 
-Password: Scandinavians#Telescoping~Allspice#Mountaineering&Parsi
+Encryption Type:
 ```
 
 Command:
@@ -87,31 +86,30 @@ cargo run /usr/share/dict/words 2 output.txt
 
 output.txt contents **after**:
 
-```
+```mark
 # Drives -----------
-Codename: ExtraditingQuanta
+Codename: MargrethePro
 Make & Model: 
 Serial Number: 
 Size: 
 Date Purchased: 
 Encryption Type: 
-Password: Scandinavians#Telescoping~Allspice#Mountaineering&Parsi
 
-Codename: Devilment'sChangeovers
+Codename: CondescendedRenovation's
 Make & Model: 
 Serial Number: 
 Size: 
 Date Purchased: 
 Encryption Type: 
-Password: Alzheimer's&Dungeon's@Lowish(Binder's@Culverts
 
-Codename: CompressesStruck
+Codename: Tubing'sRogering
 Make & Model: 
 Serial Number: 
 Size: 
 Date Purchased: 
 Encryption Type: 
-Password: Krone's&Sjw*Declassify!Byplay's@Steiner's
+
+
 ```
 
 The code **does not** override the file, but appends to it, to make sure the code can be repeated as needed.

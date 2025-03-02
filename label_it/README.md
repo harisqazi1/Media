@@ -1,6 +1,6 @@
 # Label It
 
-A way to make labeling and categorizing your drives easier by using code words inspired by National Security Agency's Tailored Access Operations' naming scheme (https://www.electrospaces.net/p/nsas-tao-division-codewords.html). Instead of having to memorize a serial number or guess which password goes to what drive, this makes it easier to catalog your drives. 
+A way to make labeling and categorizing your drives easier by using code words inspired by National Security Agency's Tailored Access Operations' naming scheme (https://www.electrospaces.net/p/nsas-tao-division-codewords.html). This is meant to be used with a label maker. Instead of having to memorize a serial number or guess which password goes to what drive, this makes it easier to catalog your drives. 
 
 I would recommend using the Electronic Frontier Foundation's large word list from: https://www.eff.org/dice. To get only the words, I ran the following on the large wordlist: `cat eff_large_wordlist.txt | awk '{ print $2}' > words.txt`.
 
@@ -108,7 +108,6 @@ Serial Number:
 Size: 
 Date Purchased: 
 Encryption Type: 
-
 ```
 
 The code **does not** override the file, but appends to it, to make sure the code can be repeated as needed.
